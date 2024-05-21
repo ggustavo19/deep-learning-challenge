@@ -27,7 +27,13 @@ The purpose of the analysis was create a binary classifier that can predict whet
   How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
 What steps did you take in your attempts to increase model performance?
-    *
+    * Neurons, Layers, and Activation Functions:
+      * First Hidden Layer: 8 neurons, `ReLU` activation function
+      * Second Hidden Layer: 4 neurons, `ReLU` activation function
+      * Third Hidden Layer: 2 neurons, `ReLU` activation function
+      * Output Layer: 1 neuron, `Sigmoid` activation function
+      * Why: The edits on the 4th attempt were made to capture the patterns in the data. Originally the first attemp was 2 hidden layers with 80 and 30 units. The 2nd attempt had 12 units for both layers and a change to 150 EPOCHS instead of 100. The 3rd attempt had 12 units with hidden layers changed to activation function `Tanh` and 80 EPOCHS.
+
 
   
 ## Summary
