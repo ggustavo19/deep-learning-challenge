@@ -29,7 +29,7 @@ The purpose of the analysis was create a binary classifier that can predict whet
       * Second Hidden Layer: 4 neurons, `ReLU` activation function
       * Third Hidden Layer: 2 neurons, `ReLU` activation function
       * Output Layer: 1 neuron, `Sigmoid` activation function
-      * ![image](https://github.com/ggustavo19/deep-learning-challenge/assets/152371383/d48705e5-fbc5-4ea8-8187-851da843ca78)
+         * ![image](https://github.com/ggustavo19/deep-learning-challenge/assets/152371383/d48705e5-fbc5-4ea8-8187-851da843ca78)
 
       * Why: The edits on the 4th attempt were made to capture the patterns in the data. Originally the first attemp was 2 hidden layers with 80 and 30 units. The 2nd attempt had 12 units for both layers and changed to 150 EPOCHS instead of 100. The 3rd attempt had 12 units with hidden layers changed to activation function `Tanh` and 80 EPOCHS. All attemps were experimental to attempt a higher accuracy of over 75%. I was unfortunately not able to achieve the target performance with these methods. 
 
